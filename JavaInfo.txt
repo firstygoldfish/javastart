@@ -1,0 +1,17 @@
+-=VARIABLES=-
+String - stores text, such as "Hello".  String values are surrounded by double quotes 
+int - stores integers (whole numbers), without decimals, such as 123 or -123 
+float - stores floating point numbers, with decimals, such as 19.99 or -19.99 
+char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes 
+boolean - stores values with two states: true or false
+-=METHODS=-
+canRead()	Boolean	Tests whether the file is readable or not 
+canWrite()	Boolean	Tests whether the file is writable or not 
+createNewFile()	Boolean	Creates an empty file 
+delete()	Boolean	Deletes a file 
+exists()	Boolean	Tests whether the file exists 
+getName()	String	Returns the name of the file 
+getAbsolutePath()	String	Returns the absolute pathname of the file 
+length()	Long	Returns the size of the file in bytes 
+list()	String[]	Returns an array of the files in the directory 
+mkdir()	Boolean	Creates a directory
