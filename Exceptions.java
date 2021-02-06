@@ -14,7 +14,10 @@ public class Exceptions {
 	                System.out.println(thisLine);          
 	   	}
     	   } catch(Exception e) {          
+		System.out.println("Error message:");
 		System.out.println(e.getMessage());
+		System.out.println("Error toString:");
+		System.out.println(e.toString());
 		//e.printStackTrace();       
     	   }    
     } 
